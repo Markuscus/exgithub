@@ -1,0 +1,29 @@
+
+public class App {
+
+    public static void main(String[] args) {
+
+            int edat;
+            String mensaje;
+            String nombre;
+            String palabra;
+            String cadena;
+                
+            edat = Leer.leerEntero("Donam la teua edat: ");
+            mensaje = Leer.leerTexto("Dime un missatge: ");
+            nombre = Leer.leerTexto("Dis-me altre nom:");
+            palabra = Leer.leerTexto("Disme eixa paraula: ");
+            cadena = Leer.leerTexto("Disme el text de  la cadena: ");
+
+
+            System.out.println(edat);
+            System.out.println(mensaje);
+            System.out.println(nombre);
+            System.out.println(palabra);
+            System.out.println(cadena);
+
+
+
+
+        }
+}
